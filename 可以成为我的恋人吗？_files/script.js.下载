@@ -49,11 +49,11 @@ noButton.addEventListener("click", function () {
   }
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "可以成为我的恋人吗？_files/images/haqian.GIF"; // 震惊
+  if (clickCount === 1) mainImage.src = "可以成为我的恋人吗？_files/images/haqian.gif"; // 震惊
   if (clickCount === 2) mainImage.src = "可以成为我的恋人吗？_files/images/pp.jpg"; // 思考
   if (clickCount === 3) mainImage.src = "可以成为我的恋人吗？_files/images/ty.jpg"; // 生气
   if (clickCount === 4) mainImage.src = "可以成为我的恋人吗？_files/images/td.jpg"; // 哭
-  if (clickCount >= 5) mainImage.src = "可以成为我的恋人吗？_files/images/shalo.GIF"; // 之后一直是哭
+  if (clickCount >= 5) mainImage.src = "可以成为我的恋人吗？_files/images/shalo.gif"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
